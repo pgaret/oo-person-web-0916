@@ -70,7 +70,7 @@ RSpec.describe "Person" do
         end
       end
 
-      describe "#hygiene" do
+       describe "#hygiene" do
         it "a person instance is initialized with a hygiene index of 8" do
           people.each { |person| expect(person.hygiene).to eq(8) }
         end
@@ -99,7 +99,7 @@ RSpec.describe "Person" do
           end
         end
 
-      end
+     end
     end
   end
 
